@@ -56,7 +56,9 @@ xyz
 
 ### Jump Bar
 
-xyz
+Use the jump bar to quickly navigate to files.
+
+On the right side of the jump bar. Use the left button to show or hide the live view. Click the right button to add another editor to the playground. Xcode initially adds the new editor to the right. Choose View > Change Editor Orientation to stack the editors vertically instead of horizontally.
 
 ### Console
 

@@ -64,3 +64,9 @@ On the right side of the jump bar. Use the left button to show or hide the live 
 
 ### Console
 
+
+## Running a Playground
+
+If you move the arrow over a line of code on the left edge of the editor, a Run button will appear. Clicking the button will run all the code through the line of code where you clicked the Run button.
+
+There is also a Run button at the bottom of the window. Click that button to run the whole playground and to stop running the playground.

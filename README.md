@@ -5,3 +5,4 @@ I have an idea for a short book that teaches the Swift language for people new t
 ## Contents
 
 * [Tools Setup](ToolsSetup)
+* [Xcode Playgrounds](XcodePlaygrounds)

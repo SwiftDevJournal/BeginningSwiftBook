@@ -52,7 +52,9 @@ The editor is where you type your Swift code. Next to the editor is a view where
 
 ### Inspector
 
-xyz
+The inspector is used more in Xcode projects than playgrounds.
+
+Above the inspector is a button to toggle showing and hiding the inspector.
 
 ### Jump Bar
 

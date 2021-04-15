@@ -54,6 +54,8 @@ If your function takes multiple arguments, use commas to separate the arguments.
 		print("\(greeting)" + ", " + "\(name)")
 	}
 	
+The function prints the greeting, followed by a comma and space, and ending with the name.
+
 Let's call the function.
 
 	greet(greeting: "Hi", name: "Charlene")

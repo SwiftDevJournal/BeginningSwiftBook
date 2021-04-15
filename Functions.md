@@ -66,7 +66,7 @@ To have a function return a value, enter the characters `->` followed by the typ
 		return value * 3
 	}
 
-Functions that return a value require a `return` statement that returns the value.
+Functions that return a value have a `return` statement that returns the value.
 
 Let's call the function.
 

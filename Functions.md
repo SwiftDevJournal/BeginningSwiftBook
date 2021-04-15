@@ -57,3 +57,18 @@ If your function takes multiple arguments, use commas to separate the arguments.
 Let's call the function.
 
 	greet(greeting: "Hi", name: "Charlene")
+	
+## Returning a Value
+
+To have a function return a value, enter the characters `->` followed by the type of data to return.
+
+	func triple(value: Int) -> Int {
+		return value * 3
+	}
+
+Functions that return a value require a `return` statement that returns the value.
+
+Let's call the function.
+
+	let tripleOfFour - triple(value: 4)
+	

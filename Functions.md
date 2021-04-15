@@ -33,12 +33,12 @@ Function arguments go in parentheses after the name of the function. A function 
 Let's look at a simple function that takes one argument.
 
 	func greet(name: String) {
-		print(“Hello, \(name)”
+		print(“Hello, " + "\(name)”)
 	}
 
 The `greet` function takes one argument, the name of the person to greet. The name is a string.
 
-The function prints `Hello, ` followed by the name of the person. To print the name of a variable, you must start with the backslash character followed by the variable name in parentheses.
+The function prints the string `Hello, ` followed by the name of the person. To print the name of a variable, you must start with the backslash character followed by the variable name in parentheses.
 
 ## Calling a Function
 
@@ -46,3 +46,14 @@ To call a function in your code, type the name of the function and put the argum
 
 	greet(name: "Godfrey")
 	
+## Multiple Function Arguments
+
+If your function takes multiple arguments, use commas to separate the arguments. Let's add a `greeting` argument to the `greet` function.
+
+	func greet(greeting: String, name: String) {
+		print("\(greeting)" + ", " + "\(name)")
+	}
+	
+Let's call the function.
+
+	greet(greeting: "Hi", name: "Charlene")

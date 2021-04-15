@@ -22,6 +22,20 @@ The simplest function is a function that takes no arguments, returns nothing, an
 	
 Swift convention is for the first word of a function name to be lowercase and the other words to be uppercase.
 
+## Returning a Value
+
+To have a function return a value, enter the characters `->` followed by the type of data to return.
+
+	func three() -> Int {
+		return 3
+	}
+
+Functions that return a value have a `return` statement that returns the value.
+
+Let's call the function.
+
+	let x = 3
+
 ## Function Arguments
 
 Function arguments go in parentheses after the name of the function. A function argument has three parts.
@@ -32,45 +46,23 @@ Function arguments go in parentheses after the name of the function. A function 
 
 Let's look at a simple function that takes one argument.
 
-	func greet(name: String) {
-		print(“Hello, " + "\(name)”)
-	}
-
-The `greet` function takes one argument, the name of the person to greet. The name is a string.
-
-The function prints the string `Hello, ` followed by the name of the person. To print the name of a variable, you must start with the backslash character followed by the variable name in parentheses.
-
-## Calling a Function
-
-To call a function in your code, type the name of the function and put the arguments in parentheses.
-
-	greet(name: "Godfrey")
-	
-## Multiple Function Arguments
-
-If your function takes multiple arguments, use commas to separate the arguments. Let's add a `greeting` argument to the `greet` function.
-
-	func greet(greeting: String, name: String) {
-		print("\(greeting)" + ", " + "\(name)")
-	}
-	
-The function prints the greeting, followed by a comma and space, and ending with the name.
-
-Let's call the function.
-
-	greet(greeting: "Hi", name: "Charlene")
-	
-## Returning a Value
-
-To have a function return a value, enter the characters `->` followed by the type of data to return.
-
 	func triple(value: Int) -> Int {
 		return value * 3
 	}
 
-Functions that return a value have a `return` statement that returns the value.
+The `triple` function takes one argument, the value to triple. The value is an integer along with the return value.
 
-Let's call the function.
+	let tripleFour = triple(value: 4)
+	
+## Multiple Function Arguments
 
-	let tripleOfFour - triple(value: 4)
+If your function takes multiple arguments, use commas to separate the arguments. 
+
+	func multiply(x: Int, y: Int) -> Int {
+		return x * y
+	}
+
+The function multiplies x by y and returns the product. Let's call the function.
+
+	let z = multiply(x, y)
 	

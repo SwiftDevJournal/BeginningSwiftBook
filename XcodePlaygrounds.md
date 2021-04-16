@@ -64,6 +64,7 @@ On the right side of the jump bar. Use the left button to show or hide the live 
 
 ### Console
 
+The console displays the output from the `print` statements in the playground. Any errors that occur when running the playground will also appear in the console.
 
 ## Running a Playground
 

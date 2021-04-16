@@ -24,4 +24,4 @@ Swift programs generally do not have many Boolean variables. The main use of Boo
 
 # Character
 
-A character stores a single character, such as `R`. Swift programs rarely deal with individual characters. They usually deal with strings, which are a collection of characters.
+A character stores a single character, such as `R`. Swift programs rarely deal with individual characters. They usually deal with strings, which are a collection of characters. Read the [Strings](Strings) section to learn more about strings.

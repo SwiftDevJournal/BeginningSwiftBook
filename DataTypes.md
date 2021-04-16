@@ -15,3 +15,9 @@ A signed integer's type name is `Int`. An unsigned integer's type name is `UInt`
 Floating-point numbers can have fractional values, such as 2.6 or 25.942.
 
 Swift has two floating-point data types:`Float` and `Double`. A double can store more decimal places than a float. If you are doing floating-point calculations that require high accuracy, use doubles.
+
+## Boolean
+
+A Boolean value has two possible values: true or false. A Boolean value's type name is `Bool`.
+
+Swift programs generally do not have many Boolean variables. The main use of Boolean values is to check if a condition is true.

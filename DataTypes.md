@@ -21,3 +21,7 @@ Swift has two floating-point data types:`Float` and `Double`. A double can store
 A Boolean value has two possible values: true or false. A Boolean value's type name is `Bool`.
 
 Swift programs generally do not have many Boolean variables. The main use of Boolean values is to check if a condition is true.
+
+# Character
+
+A character stores a single character, such as `R`. Swift programs rarely deal with individual characters. They usually deal with strings, which are a collection of characters.

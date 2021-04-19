@@ -14,3 +14,8 @@ You can avoid explicitly declaring a type by giving the variable an initial vale
 	
 By giving `score` the value zero, the Swift compiler knows the variable is an integer so you can avoid typing the colon and the type of variable.
 
+## Constants
+
+A constant is a variable whose value does not change after you set it. Use the `let` keywod to specify a constant.
+
+	let score = 0

@@ -1,6 +1,6 @@
 # Strings
 
-## Declaring a String
+## Declaring a String Variable
 
 Place the contents of the string to create a string.
 

@@ -1,1 +1,8 @@
 # Strings
+
+## Declaring a String
+
+Place the contents of the string to create a string.
+
+	var name = "Guy Incognito"
+	

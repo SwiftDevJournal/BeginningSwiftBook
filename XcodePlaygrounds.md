@@ -46,6 +46,38 @@ Xcode playgrounds have six navigators. There is a small button for each navigato
 
 Above the navigator is a button to toggle showing and hiding the navigator.
 
+#### Project Navigator
+
+The project navigator shows the files in the playground.
+
+#### Source Control Navigator
+
+The playground must be placed under version control for the source control navigator to show anything. Choose Source Control > New Git Repositories to place a playground under version control.
+
+The source control navigator shows the branches, tags, and stashed changes for the playground.
+
+#### Symbol Navigator
+
+The symbol navigator shows the classes, structs, and functions in the playground. Selecting an item from the symbol navigator opens the item's file in the editor and takes you to the item location.
+
+#### Find Navigator
+
+Use the find navigator to search in the playground.
+
+#### Issue Navigator
+
+The issue navigator lists any warnings and errors in your code.
+
+#### Report Navigator
+
+The report navigator lists the steps Xcode takes to build the playground. If you have an error and find the issue navigator isn't providing enough information about the error, use the report navigator to find the additional information.
+
+If you select a step in the report navigator, a button with horizontal lines appears on the right side.
+
+![ReportNavigator](images/ReportNavigator.png)
+
+Click the button to see the low level steps Xcode takes to run the step. A full error message should appear, assuming the step has an error.
+
 ### Editor
 
 The editor is where you type your Swift code. Next to the editor is a view where the output goes when you run the playground.

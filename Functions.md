@@ -8,7 +8,7 @@ A function has the following parts:
 
 * It starts with the keyword `func`.
 * The name of the function. It must start with a letter. There can be no spaces in the function name.
-* A list of arguments the functions takes. A function may have no arguments.
+* A list of arguments the functions takes. Arguments let you pass data for the function. A function may have no arguments.
 * The return type of the function.
 * The body of the function in braces.
 
@@ -38,7 +38,7 @@ Let's call the function.
 
 ## Function Arguments
 
-Function arguments go in parentheses after the name of the function. A function argument has three parts.
+Function arguments go in parentheses after the name of the function. Arguments let you pass data to the function. A function argument has three parts.
 
 * The name of the argument
 * A colon

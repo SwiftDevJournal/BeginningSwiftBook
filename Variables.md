@@ -1,5 +1,7 @@
 # Variables
 
+Variables hold data in a Swift program. A Swift program without variables cannot do much.
+
 ## Declaring a Variable
 
 The following code demonstrates declaring a variable:

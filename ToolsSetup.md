@@ -16,6 +16,6 @@ Apple has an [Xcode Downloads Page](https://developer.apple.com/xcode/resources/
 
 ### I Don't Have a Mac
 
-Xcode requires a Mac to run. If you have an iPad, you can install the [Swift Playgrounds app](https://apps.apple.com/us/app/swift-playgrounds/id908519492). You can use the Swift Playgrounds app to learn Swift, but you can't develop iOS apps with it.
+Xcode requires a Mac to run. If you have an iPad, you can install the [Swift Playgrounds app](https://apps.apple.com/us/app/swift-playgrounds/id908519492). You can use the Swift Playgrounds app to learn Swift. If your iPad is running iOS 15, you can develop iOS apps with the Swift Playgrounds app.
 
 If you have a computer running Windows or Linux, you can [download Swift](https://swift.org/download/) and use a text editor like [Visual Studio Code](https://code.visualstudio.com) to write Swift code. The download is for the Swift language itself. It does not include libraries for making iOS apps. Unless you plan on getting a Mac in the future, I recommend learning a language other than Swift.
